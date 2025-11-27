@@ -1,42 +1,27 @@
-These Max for Live devices are one of the outputs of a larger research project done in collaboration with Enric Guaus.
-Both devices have been developed in the context of music composition and performance projects (ArInt, nanAI, Physis I and II)
-which have been done in collaboration with Edurne Arizu.
+# knnak — Max for Live devices from my research project
 
-You can read about these different projects in the following websites:
+These Max for Live devices are one of the outputs of a larger research project done in collaboration with Enric Guaus. Both devices were developed in the context of music composition and performance projects (ArInt, nanAI, Physis I and II) which were created in collaboration with Edurne Arizu.
 
-https://felixpastor.wordpress.com/
+## Links
+- Personal blog: [felixpastor.wordpress.com](https://felixpastor.wordpress.com/)
+- Enric Guaus: [enricguaus.wordpress.com](https://enricguaus.wordpress.com/) • [GitHub: enricguaus](https://github.com/enricguaus)
+- Edurne Arizu: [edurne-arizu.com](https://www.edurne-arizu.com/)
+- Project page: [sheepdog.es](http://sheepdog.es/)
 
-https://enricguaus.wordpress.com/
-https://github.com/enricguaus
+## Requirements
+- IRCAM's MUBU package installed in Max for Live.
+- Devices tested in Live 12 (may work in other versions, not guaranteed).
 
-https://www.edurne-arizu.com/
+## Usage
+1. Load audio files into the sound bank. This can take some time — watch the Max console for slicing confirmation.
+2. Devices use the input to capture the incoming signal.
+3. The captured signal is analyzed and used to find a matching slice in the loaded audio.
+4. Experiment with audio routings and controller mappings for different results.
+5. If you find something you like or want to share feedback, please email us (contact details below).
 
-http://sheepdog.es/
+## Contact
+- For questions or feedback, email: felix.pastor.olives@gmail.com
+- If you want to contribute, open an issue or a pull request on this repository.
 
-
-
-REQUIREMENTS
-
-You must have IRCAM's MUBU package installed in Max for Live.
-The devices have been tested in Live 12.
-
-
-
-USE
-
-1. Load files in sound bank. This takes some time so look at the Max window for confirmation of slicing.
-
-2. Devices use input to capture incoming signal.
-
-3. This signal is analyzed and the data used to find a matching slice in the loaded audio.
-
-4. Experiment with audio routings and controller mappings.
-
-5. If you find something you like, email us to let us know what making music with AI is.
-
-
-
-
-ACKNOWLEDGMENTS
-
+## Acknowledgments
 This work has been partly funded by ESMUC.
